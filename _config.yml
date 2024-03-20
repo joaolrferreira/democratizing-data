@@ -22,7 +22,7 @@ email: joaolrferreira@gmail.com
 # URL settings
 domain: joaolrferreira.github.io        # if you want to force HTTPS, specify the domain
 url: "https://joaolrferreira.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/site" # the subpath of your site, e.g. /blog
+baseurl: "/democratizing-data"          # the subpath of your site, e.g. /blog
 
 #theme: minima
 #plugins:
