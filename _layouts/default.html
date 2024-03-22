@@ -6,7 +6,7 @@
 
 <head>
     <!-- Early Site Scripts. -->
-    <script src="{{ site.baseurl }}/static/site_cms/js/debug.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/debug.js"></script>
 
     <!-- Global site tag (gtag.js) & Google Analytics Code for Site.  -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FW7FLXLRE4"></script>
@@ -65,19 +65,18 @@
         @layer foundation, base, project;
 
         @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css") layer(foundation);
-        @import url("{{ site.baseurl }}/static/site_cms/css/build/core-styles.base.css") layer(base);
+        @import url("{{ site.baseurl }}/assets/css/core-styles.base.css") layer(base);
     </style>
     <style>
-        @import url("{{ site.baseurl }}/static/site_cms/css/build/core-styles.theme.default.css") layer(base);
-
-        @import url("{{ site.baseurl }}/static/site_cms/css/build/core-styles.cms.css") layer(base);
-        @import url("{{ site.baseurl }}/static/site_cms/css/build/core-styles.header.css") layer(base);
-        @import url("{{ site.baseurl }}/static/site_cms/css/build/core-cms.css") layer(project);
+        @import url("{{ site.baseurl }}/assets/css/core-styles.theme.default.css") layer(base);
+        @import url("{{ site.baseurl }}/assets/css/core-styles.cms.css") layer(base);
+        @import url("{{ site.baseurl }}/assets/css/core-styles.header.css") layer(base);
+        @import url("{{ site.baseurl }}/assets/css/core-cms.css") layer(project);
     </style>
     <!-- Custom Assets. -->
     <!-- Custom Site Assets: Favicon. -->
-    <link rel="icon" href="{{ site.baseurl }}/static/demdata_cms/img/favicons/Favicon_64x64.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/static/site_cms/css/build/core-styles.theme.has-dark-logo.css" />
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/Favicon_64x64.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/core-styles.theme.has-dark-logo.css" />
     <style id="site-css-links">
         /* TODO: Do this the right way:
          1. Load Core-Styles with s-irregular-links.
@@ -1400,7 +1399,7 @@ Styleguide Trumps.Scopes.DropCaps
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script type="module">
-        import updateEmailLinkHrefs from '{{ site.baseurl }}/static/site_cms/js/modules/updateEmailLinkHrefs.js';
+        import updateEmailLinkHrefs from '{{ site.baseurl }}/assets/js/modules/updateEmailLinkHrefs.js';
 
         const scopeElement = document.getElementById('cms-content');
         const fakeText = '__REMOVE_THIS__';
