@@ -30,16 +30,18 @@
             <div class="col col-12 col-sm-12 col-md-12 col-lg-3 offset-lg-1 col-xl-3 offset-xl-1">
                 <h3 style="text-align: left;">Stay Engaged!</h3>
                 <p class="footer-nav">Let us know if you have any comments or suggestions.</p>
-                <p style="text-align: left;"><a class="c-button c-button--primary" href="{{ site.baseurl }}/about/contact-us/"
+                <p style="text-align: left;"><a class="c-button c-button--primary"
+                        href="{{ site.baseurl }}/about/contact-us/"
                         style="background-color: #FEFCFC; color: #6667AB; text-align: left;">Contact us</a></p>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <hr class="white-line">
-                <p class="footer-legal"><a class="footer-legal" href="{{ site.baseurl }}/about/privacy-policy">Privacy Policy</a> <a
-                        class="footer-legal" href="{{ site.baseurl }}/about/terms-and-conditions">Terms and Conditions </a><a
-                        class="footer-legal" href="{{ site.baseurl }}/about/accessibility-statement">Accessibility Statement</a><br>
+                <p class="footer-legal"><a class="footer-legal" href="{{ site.baseurl }}/about/privacy-policy">Privacy
+                        Policy</a> <a class="footer-legal" href="{{ site.baseurl }}/about/terms-and-conditions">Terms
+                        and Conditions </a><a class="footer-legal"
+                        href="{{ site.baseurl }}/about/accessibility-statement">Accessibility Statement</a><br>
                     © 2023 Democratizing Data. All Rights Reserved.</p>
             </div>
         </div>
@@ -252,7 +254,7 @@
         @media (max-width: 767px) {
             .dd-banner {
                 background-image:
-                    url('{{ site.baseurl }}/assets/img/bg-main.png');
+                    url('{{ site.baseurl }}/assets/img/thumbnails/82/b5/82b53d42-937e-4713-a43e-97c3044c8e73/bg-main.png');
                 background-size:
                     cover;
                 background-position:
@@ -265,9 +267,9 @@
         @media (min-width: 768px) {
             .dd-banner {
                 background-image:
-                    url('{{ site.baseurl }}/assets/img/bg-left.png'),
-                    url('{{ site.baseurl }}/assets/img/bg-right.png'),
-                    url('{{ site.baseurl }}/assets/img/bg-main.png');
+                    url('{{ site.baseurl }}/assets/img/thumbnails/e0/12/e012834e-228f-4e3e-b2f0-925aa85aaf23/bg-left.png'),
+                    url('{{ site.baseurl }}/assets/img/thumbnails/36/57/3657a768-2bdd-4b20-b2f0-0f724a1a5fc4/bg-right.png'),
+                    url('{{ site.baseurl }}/assets/img/thumbnails/82/b5/82b53d42-937e-4713-a43e-97c3044c8e73/bg-main.png');
                 background-size:
                     auto,
                     auto,
@@ -305,6 +307,67 @@
             text-align: center;
             color: #252525;
             margin: 0px 0px 50px 0px;
+            padding: 0px;
+        }
+
+        .dd-event-banner {
+            padding: 10px 0% 9px 0%;
+        }
+
+        @media (max-width: 767px) {
+            .dd-event-banner {
+                background-image:
+                    url('{{ site.baseurl }}/assets/img/thumbnails/3f/c1/3fc1b241-359d-45c4-a89f-a12a582e35b7/dem_data_banner.jpg__1920x1920_q85_subsampling-2.jpg');
+                background-size:
+                    cover;
+                background-position:
+                    center center;
+                background-repeat:
+                    no-repeat;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .dd-event-banner {
+                background-image:
+                    url('{{ site.baseurl }}/assets/img/thumbnails/3f/c1/3fc1b241-359d-45c4-a89f-a12a582e35b7/dem_data_banner.jpg__1920x1920_q85_subsampling-2.jpg');
+                background-size:
+                    cover;
+                background-position:
+                    center center;
+                background-repeat:
+                    no-repeat;
+            }
+        }
+
+        .dd-event-bannertext {
+            font-family: 'Familjen Grotesk';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 150%;
+            text-align: center;
+            text-transform: capitalize;
+            color: #FEFCFC;
+            margin: 0px 0px 20px 0px;
+            padding: 0px;
+            display: block;
+        }
+
+        .dd-event-banner-a {
+            text-decoration: none;
+            color: #f58282;
+        }
+
+        .dd-event-bannertext2 {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            color: #FEFCFC;
+            margin: 0px 0px 20px 0px;
             padding: 0px;
         }
 
